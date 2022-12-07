@@ -12,6 +12,11 @@
 
 .link{
   text-decoration: none;
+  text-transform: uppercase;
   color: inherit;
   font-weight: 300;
+
+  &:hover{
+    text-decoration: underline;
+  }
 }
