@@ -2,4 +2,16 @@
     --lightgreen: #b9e7e7;
     --green: #2ee59d;
     --lightblack: #323232;
+    --darkteal:#006060;
   }
+
+.app__container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.link{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 300;
+}

@@ -12,7 +12,7 @@ export const Login = () => {
         <button>LogIn</button>
         <p>Error!</p>
         <div className='Login__no-acount'>
-        <span>Don't have an account ?</span><Link to="/register">Register</Link>
+        <span>Don't have an account ?</span><Link to="/register" className='link'>Register</Link>
         </div>
         
       </form>

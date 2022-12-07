@@ -13,7 +13,7 @@ export const Register = () => {
         <button>Register</button>
         <p>Error!</p>
         <div className='Login__no-acount'>
-        <span>Do you have an account ?</span><Link to="/login">Login</Link>
+        <span>Do you have an account ?</span><Link to="/login" className='link'>Login</Link>
         </div>
         
       </form>

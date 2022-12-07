@@ -10,7 +10,7 @@
     h1{
         font-size: 3.5rem;
         font-weight: 600;
-        color: rgb(0, 96, 96);
+        color: var(--darkteal);
         margin-bottom: 2rem;
     }
 
@@ -38,7 +38,7 @@
             width: 20rem;
           }
 
-          input:focus, input:focus {
+          &:focus {
             border: 1px solid var(--green);
             outline: 1px solid var(--green);
           }
