@@ -3,11 +3,11 @@ import {
   RouterProvider,
   Route,
 } from "react-router-dom";
-import { Home } from "./Pages/Home";
-import { Login } from "./Pages/Login";
-import { Register } from "./Pages/Register";
-import { Single } from "./Pages/Single";
-import { Write } from "./Pages/Write";
+import { Home } from "./Pages/Home/Home";
+import { Login } from "./Pages/Login/Login";
+import { Register } from "./Pages/Register/Register";
+import { Single } from "./Pages/Single/Single";
+import { Write } from "./Pages/Write/Write";
 
 const router = createBrowserRouter([
   {
@@ -34,8 +34,10 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div>
-      <RouterProvider router={router} />
+    <div className="app">
+      <div className="app__container">
+        <RouterProvider router={router} />
+      </div>
     </div>
   );
 }
