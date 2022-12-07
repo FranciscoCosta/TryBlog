@@ -3,6 +3,7 @@ import {
   RouterProvider,
   Route,
 } from "react-router-dom";
+import './App.scss'
 import { Home } from "./Pages/Home/Home";
 import { Login } from "./Pages/Login/Login";
 import { Register } from "./Pages/Register/Register";
@@ -23,7 +24,7 @@ const router = createBrowserRouter([
     element: <Login/>,
   },
   {
-    path: "/single",
+    path: "/post/:id",
     element: <Single/>,
   },
   {
