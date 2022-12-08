@@ -2,12 +2,12 @@
     display: flex;
     gap: 1rem;
     min-height: 100vh;
-
     .Single__content{
         flex: 5;
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        margin-right: 4rem;
         
         img{
             width: 100%;
