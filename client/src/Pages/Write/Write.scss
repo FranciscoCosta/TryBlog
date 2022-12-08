@@ -5,11 +5,90 @@
 
     .Write__content{
         flex: 5;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        input{
+            padding: 10px;
+            border: 1px solid lightgray;
+        }
+        .Write__editor-container{
+            height: 600px;
+
+            .Write__editor-box{
+                height: 100%;
+                border: 1px solid lightgray;
+                overflow-y: scroll;
+            }
+        }
     }
     .Write__menu{
         flex: 2;
         display: flex;
         flex-direction: column;
         gap: 2rem;
+
+        .Write__item{
+            border: 1px solid lightgrey;
+            padding: 0.8rem;
+            flex: 1;
+            display: flex;
+            gap: 0.2rem;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: var(--lightdark);
+
+        h1{
+            font-size: 2rem;
+        }
+        .file{
+            text-decoration: underline;
+        }
+        .Write__menu-buttons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+
+            button {
+                align-items: center;
+                align-self: center;
+                background-color: var(--lightblack);
+                border: none;
+                border-radius: 10px;
+                box-shadow: 1px 8px 15px rgba(0, 0, 0, 0.1);
+                color: white;
+                cursor: pointer;
+                display: flex;
+                font-size: 1rem;
+                font-weight: 600;
+                height: 60px;
+                justify-content: center;
+                letter-spacing: 1px;
+                margin-top: 1rem;
+                outline: none;
+                text-transform: uppercase;
+                transition: all 0.3s ease 0s;
+                width: 100px;
+                
+                &:hover{
+                    transition: 0.5s all ease;
+                    transform: translateY(-10px);
+                    color: var(--lightblack);
+                    background-color: var(--lightgreen);
+                    border: 1px solid rgba(0, 0, 0, 0.25);
+                }
+            }
+        }
+    .Write__item-cat{
+        display: flex;
+        gap: 0.5rem;
+        color: var(--darkteal);
+
+    }   
+    }
     }
 }
