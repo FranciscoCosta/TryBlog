@@ -4,6 +4,7 @@ import { Header } from "../../Components/Header/Header";
 import "./Single.scss";
 import { AiFillEdit, AiFillDelete } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import { Menu } from "../../Components/Menu/Menu";
 
 export const Single = () => {
   return (
@@ -59,7 +60,9 @@ export const Single = () => {
             <br />
           </p>
         </div>
-        <div className="Single__menu">m</div>
+        <div className="Single__menu">
+          <Menu/>
+        </div>
       </div>
       <Footer />
     </div>

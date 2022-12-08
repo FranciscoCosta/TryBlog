@@ -1,0 +1,52 @@
+.Menu{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+
+    h1{
+        font-size: 2rem;
+        color: var(--lightblack);
+    }
+    .Menu__post{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    h2{
+        color: var(--lightblack);
+    }
+    button {
+        align-items: center;
+        background-color: var(--lightblack);
+        border: none;
+        border-radius: 10px;
+        box-shadow: 1px 8px 15px rgba(0, 0, 0, 0.1);
+        color: white;
+        cursor: pointer;
+        display: flex;
+        font-size: 1rem;
+        font-weight: 700;
+        height: 50px;
+        justify-content: center;
+        letter-spacing: 1.5px;
+        margin: 1rem 2.5rem;
+        outline: none;
+        text-transform: uppercase;
+        transition: all 0.3s ease 0s;
+        width: 160px;
+
+        &:hover{
+            transition: 0.5s all ease;
+            transform: translateY(-10px);
+            color: var(--lightblack);
+            background-color: var(--lightgreen);
+            border: 1px solid rgba(0, 0, 0, 0.25);
+        }
+    }
+}

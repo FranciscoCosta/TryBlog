@@ -1,6 +1,7 @@
 .Single__container{
     display: flex;
     gap: 1rem;
+    min-height: 100vh;
 
     .Single__content{
         flex: 5;
@@ -25,6 +26,11 @@
             }
             span{
                 font-weight: 700;
+                font-size: 1.7rem;
+            }
+            p{
+                font-size: 1.3rem;
+                line-height: 1.5rem;
             }
         }
     h1{
