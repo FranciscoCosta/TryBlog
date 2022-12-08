@@ -1,0 +1,44 @@
+.Single__container{
+    display: flex;
+    gap: 1rem;
+
+    .Single__content{
+        flex: 5;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
+        img{
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        .Single__user{
+            display: flex;
+            gap: 1rem;
+            img{
+                margin-left: 1rem;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            span{
+                font-weight: 700;
+            }
+        }
+    h1{
+        color: var(--lightblack);
+        font-size: 4rem;
+    }
+    p{
+        text-align: justify;
+        font-size: 1.5rem;
+        line-height: 3.2rem;
+    }
+    }
+
+    .Single__menu{
+        flex: 2;
+    }
+}
