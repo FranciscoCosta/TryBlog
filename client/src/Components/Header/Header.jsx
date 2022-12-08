@@ -23,6 +23,9 @@ export const Header = () => {
           <Link className='link' to="/?cat=questions">
             <h6>Questions</h6>
           </Link>
+          <Link className='link' to="/?cat=questions">
+            <h6>News</h6>
+          </Link>
           <span>
             Xico
           </span>

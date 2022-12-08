@@ -63,15 +63,15 @@
             text-transform: uppercase;
             transition: all 0.3s ease 0s;
             width: 260px;
-          }
-
-            button:hover{
-                transition: 1s all ease;
+            
+            &:hover{
+                transition: 0.5s all ease;
                 transform: translateY(-10px);
                 color: var(--lightblack);
-                background-color: var(--green);
-                border: 1px solid rgba(0, 0, 0, 0.5);
+                background-color: var(--lightgreen);
+                border: 1px solid rgba(0, 0, 0, 0.25);
             }
+          }
             p{
                 color: crimson;
                 font-size: 1.4rem;

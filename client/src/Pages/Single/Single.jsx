@@ -4,7 +4,7 @@ import { Header } from '../../Components/Header/Header'
 
 export const Single = () => {
   return (
-    <div>
+    <div className='Single'>
       <Header/>
       <Footer/>
     </div>
