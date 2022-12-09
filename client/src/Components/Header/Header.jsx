@@ -8,7 +8,9 @@ export const Header = () => {
     <div className='Header'>
       <div className='Header__container'>
         <div className='Header__logo'>
-          <img src={logo} alt="tryblog-logo" />
+          <Link to="/">
+            <img src={logo} alt="tryblog-logo" />
+          </Link>
         </div>
         <div className='Header__links'>
           <Link className='link' to="/?cat=projects">
